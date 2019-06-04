@@ -22,7 +22,6 @@ export default class Content extends Component {
       tabs: tabData,
       cards: cardData
     })
-    console.log(tabData, cardData)
   }
 
   changeSelected = tab => {
